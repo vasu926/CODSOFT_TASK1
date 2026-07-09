@@ -10,13 +10,17 @@ Unbeatable Tic-Tac-Toe game where AI uses Minimax algorithm.
 
 ## Task 3: Image Captioning
 Generates captions for images using ViT-GPT2 model.
+    ## Task 4: Next Word Prediction
+    LSTM based model that predicts the next word in a sentence.
 
 ## Task 5: Real-time Face Detection  
 Detects faces using OpenCV Haar Cascade classifier.
 
 ## How to Run
 ```bash
-pip install torch torchvision transformers pillow opencv-python
-python Task2_TicTacToe.py
-python Task3_ImageCaption.py  
-python Task5_FaceDetection.py
+    pip install torch torchvision transformers pillow opencv-python tensorflow numpy
+    python Task1_chatbot.py
+    python Task2_TicTacToe.py
+    python Task3_ImageCaption.py  
+    python Task4_NextWordPrediction.py
+    python Task5_FaceDetection.py
